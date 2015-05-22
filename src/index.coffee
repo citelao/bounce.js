@@ -46,8 +46,8 @@ class Bounce
 
   updateDuration: ->
     @duration = @components
-      .map (component) -> component.duration + component.delay
-      .reduce (a, b) -> Math.max a, b
+      .map((component) -> component.duration + component.delay)
+      .reduce (a, b) -> (Math.max a, b)
 
   define: (name) ->
     @name = name or Bounce.generateName()

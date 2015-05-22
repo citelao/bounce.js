@@ -1,7 +1,8 @@
 {
   "name": "bounce",
+  "author": "",
   "version": "0.0.1",
-  "private": "true",
+  "private": true,
   "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
