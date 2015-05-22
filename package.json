@@ -1,7 +1,8 @@
 {
   "name": "bounce",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": "true",
+  "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
     "mocha": "~1.17.1",
@@ -11,6 +12,5 @@
     "eventemitter2": "~0.4.13",
     "underscore": "~1.5.2",
     "gl-matrix": "2.0.0"
-  },
-  "main": "lib/index.js"
+  }
 }
